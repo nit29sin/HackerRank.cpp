@@ -1,2 +1,2 @@
 # HackerRank.cpp
-HackerRank C++ Programs
+Practice Programs of HackerRank C++

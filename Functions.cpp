@@ -43,3 +43,44 @@ Sample Output
 
 6
 */
+
+
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+/*
+Add `int max_of_four(int a, int b, int c, int d)` here.
+*/
+
+int max_of_four(int a,int b,int c,int d)
+{
+    if(a>b&&a>c&&a>d)
+    {
+        cout<<a<<endl;
+    }
+    if(b>a&&b>c&&b>d)
+    {
+        cout<<b<<endl;
+    }
+    if(c>a&&c>b&&c>d)
+    {
+        cout<<c<<endl;
+    }
+    if(d>a&&d>b&&d>c)
+    {
+        cout<<d<<endl;
+    }
+    return 0;
+}
+
+int main() {
+    int a, b, c, d;
+    cin>>a>>b>>c>>d;
+    max_of_four(a, b, c, d);
+    
+    
+    return 0;
+}
+
+

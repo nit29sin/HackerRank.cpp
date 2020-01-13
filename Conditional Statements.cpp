@@ -44,8 +44,6 @@ Explanation 2
  is greater than , so we print Greater than 9.
 */
 
-
-
 #include <bits/stdc++.h>
 
 using namespace std;

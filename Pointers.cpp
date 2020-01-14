@@ -41,3 +41,32 @@ Explanation
 
 */
 
+
+#include <iostream>
+using namespace std;
+
+void update(int *pa,int *pb) {
+    // Complete this function 
+    
+    cout<<*pa+*pb<<endl;
+    if (*pa>*pb)
+    {
+        cout<<*pa-*pb<<endl;
+    }
+    else
+    {
+        cout<<*pb-*pa<<endl;
+    }
+
+}
+
+int main() {
+    int a, b;
+    int *pa = &a, *pb = &b;
+    
+    cin>>a;
+    cin>>b;
+    update(pa, pb);
+
+    return 0;
+}
